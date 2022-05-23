@@ -126,7 +126,6 @@ function idCheck(){
 		
 		<div id="joinbox">
 			<h1>가입하기</h1>
-			빠르고 쉽습니다.
 			<hr>
 			<form name="joinform" action="./join" method="post" onsubmit="return check()">
 			<input type="text" id="id" name="id" placeholder="아이디를 입력하세요" class="form-control" onchange= "idcheck()">
